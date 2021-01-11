@@ -2,12 +2,10 @@
 using namespace std;
  
 class Array{
- 
 private:
     int* A;
     int size;
     int length;
- 
 public:
     Array(int size){
         this->size = size;
